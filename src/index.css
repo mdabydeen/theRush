@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.button-large {
+  text-align: center;
+  font-size: 110%;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.button-secondary {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 60px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #9555af;
+    position: absolute;
+    /* top: 50%; */
+}

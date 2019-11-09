@@ -2,10 +2,11 @@
   text-align: center;
 } */
 
-/* .App-logo {
-  height: 40vmin;
-} */
+.App-logo {
+  height: 20vmin;
+  text-align: center;
+}
 
-/* .App-link {
+.App-link {
   color: #09d3ac;
-} */
+}

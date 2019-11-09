@@ -26,11 +26,19 @@ function App() {
   );
 
   return (
-    <div className="App">
+    <>
+      {
+        loading ? (
+          <div className='App-logo'>Downloading ...</div>
+        ) : (<div></div>)
+      }
+
+      <div className="App">
       <header className="App-header">
         <Table columns={columns} data={data} setLoading={setLoading} />
       </header>
     </div>
+    </>
   );
 }
 

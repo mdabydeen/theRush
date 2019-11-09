@@ -37,6 +37,7 @@ function Table({ columns, data, setLoading }) {
 
     setTimeout(() => {
       csvLink.current.link.click();
+      setLoading(false);
     }, 5000);
   }
 
@@ -59,7 +60,9 @@ function Table({ columns, data, setLoading }) {
         className="hidden"
         ref={csvLink}
         target="_blank"/>
-      <button onClick={download}> Download CSV </button>
+      <div className="wrapper">
+        <button className="button-secondary button-large" onClick={download}> Download CSV </button>
+      </div>
     </>
   )
 }
