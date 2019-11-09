@@ -13,7 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker": "docker build -t therush . && docker run -d -it -p 80:3000 --name='therush' npm start"
   },
   "eslintConfig": {
     "extends": "react-app"
